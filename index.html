@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NYOANDFRIENDS — BE WITH AS</title>
+
+  <!-- SEO & Social Preview -->
+  <meta name="description" content="Official NYOANDFRIENDS Link Hub — Be With As. Find all our social links, store, and support pages.">
+  <meta property="og:title" content="NYOANDFRIENDS — BE WITH AS">
+  <meta property="og:description" content="Find all NYOANDFRIENDS social links and official pages here.">
+  <meta property="og:image" content="https://nyoandfriends-link.vercel.app/logo.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FFB6A0">
+  <link rel="icon" href="https://nyoandfriends-link.vercel.app/favicon.ico" />
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --pink:#FFB6A0;
+      --black:#000;
+      --white:#fff;
+    }
+
+    html,body {
+      height:100%;
+      margin:0;
+      font-family:'Montserrat',sans-serif;
+      background:linear-gradient(120deg,#000 0%,#0a0a0a 40%,var(--pink) 100%);
+      background-size:300% 300%;
+      animation:gradientShift 12s ease infinite;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:var(--white);
+    }
+
+    @keyframes gradientShift {
+      0%{background-position:0% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
+    }
+
+    .card {
+      text-align:center;
+      background:rgba(255,255,255,0.05);
+      border-radius:20px;
+      padding:40px 28px;
+      box-shadow:0 6px 30px rgba(0,0,0,0.6);
+      max-width:500px;
+      width:90%;
+      backdrop-filter:blur(8px);
+      animation:fadeUp 1s ease;
+    }
+
+    @keyframes fadeUp {
+      from{opacity:0;transform:translateY(10px);}
+      to{opacity:1;transform:translateY(0);}
+    }
+
+    .logo {
+      width:110px;
+      height:110px;
+      margin:0 auto 18px;
+      border-radius:16px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:rgba(255,255,255,0.1);
+      border:1px dashed rgba(255,255,255,0.2);
+      font-weight:700;
+      font-size:14px;
+      color:var(--white);
+      overflow:hidden;
+    }
+    .logo img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      border-radius:16px;
+    }
+
+    .title {
+      font-size:28px;
+      letter-spacing:2px;
+      font-weight:800;
+      margin:6px 0 4px;
+    }
+
+    .tag {
+      color:var(--pink);
+      font-weight:600;
+      letter-spacing:1px;
+      margin-bottom:24px;
+    }
+
+    .links {
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+
+    .btn {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:10px;
+      background:var(--white);
+      color:var(--black);
+      padding:14px;
+      border-radius:999px;
+      font-weight:600;
+      text-decoration:none;
+      box-shadow:0 4px 20px rgba(0,0,0,0.3);
+      transition:all .25s ease;
+    }
+
+    .btn i { font-size:18px; }
+
+    .btn:hover {
+      transform:translateY(-4px) scale(1.03);
+      background:linear-gradient(90deg,var(--white),var(--pink));
+      box-shadow:0 10px 35px rgba(255,182,160,0.5);
+    }
+
+    .foot {
+      margin-top:22px;
+      font-size:12px;
+      color:rgba(255,255,255,0.6);
+    }
+
+    /* Responsive */
+    @media (max-width:480px){
+      .card{padding:28px;border-radius:14px;}
+      .title{font-size:24px;}
+      .logo{width:90px;height:90px;}
+      .btn{padding:12px;font-size:15px;}
+    }
+  </style>
+</head>
+<body>
+  <section class="card">
+    <div class="logo">
+      <!-- Ganti URL di bawah ini dengan logo kamu -->
+      <!-- <img src="https://link-ke-logo-kamu.png" alt="NYOANDFRIENDS Logo"> -->
+      LOGO
+    </div>
+
+    <h1 class="title">NYOANDFRIENDS</h1>
+    <div class="tag">BE WITH AS</div>
+
+    <div class="links">
+      <a class="btn" href="https://tiktok.com/@nyoandfriends" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a class="btn" href="https://instagram.com/nyoandfriends" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a class="btn" href="https://youtube.com/@nyoandfriends" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a class="btn" href="https://discord.gg/nyoandfriends" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+      <a class="btn" href="https://nyoandfriends.store" target="_blank"><i class="fas fa-store"></i> Store</a>
+      <a class="btn" href="https://saweria.co/nyoandfriends" target="_blank"><i class="fas fa-coins"></i> Saweria</a>
+      <a class="btn" href="https://sociabuzz.com/nyoandfriends" target="_blank"><i class="fas fa-star"></i> Sociabuzz</a>
+    </div>
+
+    <div class="foot">© NYOANDFRIENDS 2025 | Create by NyoA'Team</div>
+  </section>
+</body>
+</html>
